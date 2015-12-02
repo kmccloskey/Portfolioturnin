@@ -13,11 +13,24 @@ html {
 .menu {
 	height: 100%;
 	width: 285px;
-	background-color: black;
+	background-color: #202024;
 	border-right: white 2px solid;
 	position: fixed;
 	margin-left: 0px;
 	margin-top: 0px;
+	opacity: 0.0;
+}
+
+.menu:hover {
+	height: 100%;
+	width: 285px;
+	background-color: #202024;
+	border-right: white 2px solid;
+	position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+	left: 0px;
+	opacity: 1.0;
 }
 
 /*menu icon clickable*/
@@ -26,9 +39,45 @@ html {
 	height: 100px;
 	float: left;
 	position: fixed;
+	cursor: pointer;
+	opacity: 1.0;
 }
 
-.first{
+.first {
 	width: 75px;
 	margin-left: 300px;
+	opacity: 1.0;
+}
+
+.about {
+	width: 230px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: arial;
+	text-align: center;
+	color: white;
+	padding: 25px;
+	border-bottom: white 2px dashed;
+}
+
+.contact {
+	width: 230px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: arial;
+	text-align: center;
+	color: white;
+	padding: 25px;
+	border-bottom: white 2px dashed;
+}
+
+.resources {
+	width: 230px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: arial;
+	text-align: center;
+	color: white;
+	padding: 25px;
+	border-bottom: white 2px dashed;
 }
