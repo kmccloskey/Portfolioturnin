@@ -8,3 +8,27 @@ html {
 	min-width: 1024px;
 	height: auto;
 }
+
+/*static menu left side*/
+.menu {
+	height: 100%;
+	width: 285px;
+	background-color: black;
+	border-right: white 2px solid;
+	position: fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+/*menu icon clickable*/
+.menuicon {
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: fixed;
+}
+
+.first{
+	width: 75px;
+	margin-left: 300px;
+}
