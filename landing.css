@@ -33,20 +33,11 @@ html {
 	opacity: 1.0;
 }
 
-/*menu icon clickable*/
-.menuicon {
-	width: 100px;
-	height: 100px;
-	float: left;
-	position: fixed;
-	cursor: pointer;
-	opacity: 1.0;
-}
-
 .first {
 	width: 75px;
-	margin-left: 300px;
+	margin-left: 0px;
 	opacity: 1.0;
+	float: left;
 }
 
 .about {
