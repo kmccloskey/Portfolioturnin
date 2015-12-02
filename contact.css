@@ -17,7 +17,7 @@ html {
 	border-right: white 2px solid;
 	position: absolute;
 	margin-left: 0px;
-	margin-top: -40px;
+	margin-top: -23px;
 	opacity: 0.0;
 }
 
@@ -28,7 +28,7 @@ html {
 	border-right: white 2px solid;
 	position: absolute;
 	margin-left: 0px;
-	margin-top: -40px;
+	margin-top: -23px;
 	/*left: 0px;*/
 	opacity: 1.0;
 }
@@ -39,14 +39,14 @@ html {
 	opacity: 0.7;
 	/*float: left;*/
 	position: fixed;
-	margin-top: -20px;
+	margin-top: -10px;
 }
 
 .home {
 	width: 230px;
 	text-decoration: none;
 	font-size: 25px;
-	font-family: arial;
+	font-family: courier;
 	text-align: center;
 	color: white;
 	padding: 25px;
@@ -57,7 +57,7 @@ html {
 	width: 230px;
 	text-decoration: none;
 	font-size: 25px;
-	font-family: arial;
+	font-family: courier;
 	text-align: center;
 	color: white;
 	padding: 25px;
@@ -68,7 +68,7 @@ html {
 	width: 230px;
 	text-decoration: none;
 	font-size: 25px;
-	font-family: arial;
+	font-family: courier;
 	text-align: center;
 	color: white;
 	padding: 25px;
@@ -79,7 +79,7 @@ html {
 	width: 230px;
 	text-decoration: none;
 	font-size: 25px;
-	font-family: arial;
+	font-family: courier;
 	text-align: center;
 	color: white;
 	padding: 25px;
@@ -101,15 +101,15 @@ html {
 	height: 150px;
 	width: 150px;
 	margin: auto;
-	font-family: arial;
-	font-size: 45px;
+	font-family: courier;
+	font-size: 30px;
 	/*vertical-align: center;*/
 	line-height: 150px;
 	margin-top: auto;
 }
 
 .text {
-	background-color: rgba(215, 215, 215, 0.5);
+	background-color: rgba(215, 215, 215, 0.05);
 	width: 900px;
 	height: 450px;
 	position: relative;
@@ -121,7 +121,7 @@ html {
 }
 
 .heading {
-	text-decoration: underline;
+	text-decoration: none;
 	margin-top: 15px;
 	position: relative;
 	opacity: 1.0;
@@ -131,7 +131,7 @@ html {
 .social {
 	float: right;
 	width: 140px;
-	margin-top: -40px;	
+	margin-top: -25px;	
 }
 
 .facebook {
@@ -152,4 +152,9 @@ html {
 
 .twitter:hover {
 	background-color: #0E0E0E;
+}
+
+h1 {
+	color: #F8F8FF;
+	font-family: courier;
 }
