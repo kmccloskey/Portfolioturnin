@@ -109,12 +109,12 @@ html {
 }
 
 .text {
-	background-color: rgba(215, 215, 215, 0.05);
+	background-color: rgba(215, 215, 215, 0.0);
 	width: 900px;
 	height: 450px;
 	position: relative;
 	margin: 150px auto;
-	text-align: left;
+	text-align: center;
 	vertical-align: center;
 	border-radius: 25px;
 	/*opacity: 0.2;*/
@@ -157,4 +157,11 @@ html {
 h1 {
 	color: #F8F8FF;
 	font-family: courier;
+	text-indent: 0px;
+}
+
+.paragraph {
+	color: #F8F8FF;
+	font-family: courier;
+	line-height: 25px;
 }
