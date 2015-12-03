@@ -164,3 +164,22 @@ h1 {
 	color: #F8F8FF;
 	font-family: courier;
 }
+
+.left {
+	float: left;
+	width: 400px;
+	color: #F8F8FF;
+	font-family: courier;
+	margin: auto;
+	text-align: left;
+}
+
+.right {
+	float: right;
+	width: 400px;
+	display: inline;
+	color: #F8F8FF;
+	font-family: courier;
+	margin-top: -20px;
+	text-align: right;
+}
