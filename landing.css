@@ -12,7 +12,7 @@ html {
 /*static menu left side*/
 .menu {
 	height: 700px;
-	width: 285px;
+	width: 385px;
 	background-color: #202024;
 	border-right: white 2px solid;
 	position: fixed;
